@@ -1,0 +1,17 @@
+{
+  "name": "alerting-web-api",
+  "version": "0.0.1",
+  "description": "Alerting Web API enables you to schedule and send `alerts` or `notifications` to different channels. Supported channel is `EMAIL` and more will be implemented.\n> `API Test Token` -> `Use generated Token from your Application.`",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "dependencies": {
+    "superagent": "1.7.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
